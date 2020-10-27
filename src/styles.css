@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cookie", cursive;
+  color: #fffff0;
+  overflow: hidden;
+  background-image: url("assets/bg.jpg");
+  margin: 0;
+  height: 100vh;
+  max-height: 100vh;
+
+  animation-name: bg-position;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bg-position {
+  from {
+    background-position-x: -20%;
+  }
+  to {
+    background-position-x: 20%;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+#slider {
+  text-align: center;
+}
+
+.phase-image-container {
+  margin: 2em 0;
+  height: 35vh;
+}
