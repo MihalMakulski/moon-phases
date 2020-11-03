@@ -17,6 +17,18 @@ body {
   animation-direction: alternate;
 }
 
+@media screen and (min-width: 991px) {
+  body {
+    animation-duration: 20s;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    animation-duration: 10s;
+  }
+}
+
 @keyframes bg-position {
   from {
     background-position-x: -20%;
@@ -28,6 +40,13 @@ body {
 
 h1 {
   text-align: center;
+}
+
+.glide__slide h2 {
+  font-size: 2.5em;
+}
+.glide__slide .phase-name {
+  font-size: 1.5em;
 }
 
 #slider {

@@ -67,7 +67,7 @@ function slideTmpl(nameDay) {
       <div class="phase-image-container">
         ${phase.svg}
       </div>
-      <div>${phase.npWidget}</div>
+      <div class="phase-name">${phase.npWidget}</div>
       ${phase.timeEvent ? `<div>${phase.timeEvent}</div>` : ""}
     </li>`;
   };
