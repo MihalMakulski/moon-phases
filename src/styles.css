@@ -21,6 +21,10 @@ body {
   body {
     animation-duration: 20s;
   }
+  
+  #app {
+    margin-top: 5em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
