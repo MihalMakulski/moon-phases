@@ -1,7 +1,4 @@
-import "./styles.css";
 import Glide from "@glidejs/glide";
-
-import bg from "./assets/bg.jpg";
 
 const glide = new Glide("#app", {
   type: "carousel",
@@ -28,8 +25,6 @@ const days = [
   "Friday",
   "Saturday"
 ];
-
-document.body.style.backgroundImage = bg;
 
 getMoonPhases(configMoon).then(renderApp);
 
