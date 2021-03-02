@@ -47,7 +47,7 @@ function renderApp(moonData) {
   const slides = sortedDays.map(slideTmpl(nameDay)).join("");
 
   slider.querySelector(".glide__slides").innerHTML = slides;
-  header.querySelector("span").textContent = monthName;
+  header.querySelector("span").textContent = monthName + '!';
   glide.mount();
 }
 
